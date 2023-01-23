@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Graphic Artist Portfolio</title>
+		<!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- Google Font -->
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/73b86f2734.js" crossorigin="anonymous"></script>
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	</head>
+	<body>
+		<div class="container-fluid" id="gallery">
+		<!-- navbar -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+				<a href="index.html" class="navbar-brand">Samson Art</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav ml-auto">
+			    	<a class="nav-item nav-link" href="./index.html">Home</a>
+			    	<a class="nav-item nav-link" href="./skills.html">Skills</a>
+			    	<a class="nav-item nav-link  active" href="./gallery.html">Gallery</a>
+			    	<a class="nav-item nav-link" href="./contact.html">Contact</a>
+			    </div>
+			  </div>
+			</nav>
+			<div class="container text-white">
+				<div class="row">
+					<div class="jumbotron mx-auto bg-transparent my-0 text-center text-white">
+						<div class="col-md-12">
+							<h1>Samson Art</h1>
+							<hr>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>					
+						</div>
+					</div>
+				</div>	
+					<hr>
+					<h2 class="text-center my-md-2">Featured</h2>
+					<hr>
+				<div class="row" id="carousel-gallery">
+						<div id="carouselGalleryIndicators" class="carousel slide col-md-8 offset-md-2" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselGalleryIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselGalleryIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselGalleryIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <img class="d-block w-100" src="https://www.shillingtoneducation.com/content-blog/uploads/2015/10/1413598429736-1200x800.jpg" alt="First slide">
+						      <div class="carousel-caption d-none d-md-block">
+						      	<h4>Art 1</h4>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img class="d-block w-100" src="https://images.ctfassets.net/u0haasspfa6q/35YGJbT4u7NJl5MG8I5rc5/33e04631efdf48a4f180bc3827160437/monument-valley-screenshot-4" alt="Second slide">
+						      <div class="carousel-caption d-none d-md-block">
+						      	<h4>Art 2</h4>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img class="d-block w-100" src="https://voices.spu.edu/wp-content/uploads/2017/11/SPAC-Gallery2.jpg" alt="Third slide">
+						      <div class="carousel-caption d-none d-md-block">
+						      	<h4>Art 3</h4>
+						      </div>
+						    </div>
+						  </div>
+						  <a class="carousel-control-prev" href="#carouselGalleryIndicators" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carouselGalleryIndicators" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+				</div>
+				<hr>
+				<h2 class="text-center my-3">Gallery</h2>
+				<hr>
+				<div class="row text-dark justify-content-between" id="modal-gallery">
+					<div class="col-md-2 my-3">
+						<!-- thumbnail -->
+						<img src="https://www.patrickkingart.com/wp-content/uploads/2017/08/synthwaveguy-400x400.jpg" class="img-fluid" data-toggle="modal" data-target="#gallery1">
+						<!-- Modal -->
+						<div class="modal fade" id="gallery1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body mx-auto">
+						        <img src="https://www.patrickkingart.com/wp-content/uploads/2017/08/synthwaveguy-400x400.jpg" class="img-fluid">
+						      </div>
+						      <div class="modal-footer mx-auto text-center">
+						        <i class="fab fa-facebook-f mx-2 mx-md-2"></i>
+						        <i class="fab fa-twitter mx-2 mx-md-2"></i>
+						        <i class="fab fa-instagram mx-2 mx-md-2"></i>
+						        <i class="fab fa-deviantart mx-2 mx-md-2"></i>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<!-- end of gallery1 -->
+					<div class="col-md-2 my-3">
+						<!-- thumbnail -->
+						<img src="https://template.canva.com/EADaoHhFXy0/2/0/400w-iwfuKFrW3l8.jpg" class="img-fluid" data-toggle="modal" data-target="#gallery2">
+						<!-- Modal -->
+						<div class="modal fade" id="gallery2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body mx-auto">
+						        <img src="https://template.canva.com/EADaoHhFXy0/2/0/400w-iwfuKFrW3l8.jpg" class="img-fluid">
+						      </div>
+						      <div class="modal-footer mx-auto text-center">
+						        <i class="fab fa-facebook-f mx-2 mx-md-2"></i>
+						        <i class="fab fa-twitter mx-2 mx-md-2"></i>
+						        <i class="fab fa-instagram mx-2 mx-md-2"></i>
+						        <i class="fab fa-deviantart mx-2 mx-md-2"></i>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<!-- end of gallery 2 -->
+					<div class="col-md-2 my-3">
+						<!-- thumbnail -->
+						<img src="https://i.pinimg.com/originals/89/ab/72/89ab72ab2ed5bee494d74511b08bf720.png" class="img-fluid" data-toggle="modal" data-target="#gallery3">
+						<!-- Modal -->
+						<div class="modal fade" id="gallery3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body mx-auto">
+						        <img src="https://i.pinimg.com/originals/89/ab/72/89ab72ab2ed5bee494d74511b08bf720.png" class="img-fluid">
+						      </div>
+						      <div class="modal-footer mx-auto text-center">
+						        <i class="fab fa-facebook-f mx-2 mx-md-2"></i>
+						        <i class="fab fa-twitter mx-2 mx-md-2"></i>
+						        <i class="fab fa-instagram mx-2 mx-md-2"></i>
+						        <i class="fab fa-deviantart mx-2 mx-md-2"></i>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<!-- end of gallery 3 -->
+
+					<div class="col-md-2 my-3">
+						<!-- thumbnail -->
+						<img src="https://images.schoolofmotion.com/w400/d4bc4128-758e-4336-b2fc-1b5ec21d7198/Illustration_for_Motion_Thumbnail_1-1.png" class="img-fluid" data-toggle="modal" data-target="#gallery4">
+						<!-- Modal -->
+						<div class="modal fade" id="gallery4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body mx-auto">
+						        <img src="https://images.schoolofmotion.com/w400/d4bc4128-758e-4336-b2fc-1b5ec21d7198/Illustration_for_Motion_Thumbnail_1-1.png" class="img-fluid">
+						      </div>
+						      <div class="modal-footer mx-auto text-center">
+						        <i class="fab fa-facebook-f mx-2 mx-md-2"></i>
+						        <i class="fab fa-twitter mx-2 mx-md-2"></i>
+						        <i class="fab fa-instagram mx-2 mx-md-2"></i>
+						        <i class="fab fa-deviantart mx-2 mx-md-2"></i>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<!-- end of gallery 4 -->
+					<div class="col-md-2 my-3">
+						<!-- thumbnail -->
+						<img src="https://edgedcircleproductions.com/wp-content/uploads/2020/01/Dritt-naardekjem-1200x1200-72dpi-400x400.jpg" class="img-fluid" data-toggle="modal" data-target="#gallery5">
+						<!-- Modal -->
+						<div class="modal fade" id="gallery5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body mx-auto">
+						        <img src="https://edgedcircleproductions.com/wp-content/uploads/2020/01/Dritt-naardekjem-1200x1200-72dpi-400x400.jpg" class="img-fluid">
+						      </div>
+						      <div class="modal-footer mx-auto text-center">
+						        <i class="fab fa-facebook-f mx-2 mx-md-2"></i>
+						        <i class="fab fa-twitter mx-2 mx-md-2"></i>
+						        <i class="fab fa-instagram mx-2 mx-md-2"></i>
+						        <i class="fab fa-deviantart mx-2 mx-md-2"></i>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<!-- end of gallery 5 -->
+				</div>
+			<!-- end of modal gallery -->
+			</div>
+			<footer class="container-fluid text-center text-white mt-5">
+				<div class="row my-3">
+					<div class="col-md-5 d-md-none d-lg-inline-flex mx-auto justify-content-between">
+						<i class="fab fa-facebook-f fa-2x mx-3"></i>
+						<i class="fab fa-twitter fa-2x mx-3"></i>
+						<i class="fab fa-instagram fa-2x mx-3"></i>
+						<i class="fab fa-deviantart fa-2x mx-3"></i>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 mx-auto">
+						&copy; All Rights Reserved 2020
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 mx-auto">
+						For Educational Purposes Only
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<div class="container-fluid mt-5">
+			<div class="row">
+				<div class="col-6 py-5 bg-danger border border-dark">Div 1</div>
+				<div class="col-6 py-5 bg-danger border border-dark">
+					<div class="row">
+						<div class="border border-dark col-md-6 bg-warning">
+							Col inside Col
+						</div>
+						<div class="border border-dark col-md-6 bg-warning">
+							Col inside Col
+						</div>
+					</div>
+					<div class="row">
+						<div class="border border-dark col-md-1 bg-primary">1</div>
+						<div class="border border-dark col-md-1 bg-primary">2</div>
+						<div class="border border-dark col-md-1 bg-primary">3</div>
+						<div class="border border-dark col-md-1 bg-primary">4</div>
+						<div class="border border-dark col-md-1 bg-primary">5</div>
+						<div class="border border-dark col-md-1 bg-primary">6</div>
+						<div class="border border-dark col-md-1 bg-primary">7</div>
+						<div class="border border-dark col-md-1 bg-primary">8</div>
+						<div class="border border-dark col-md-1 bg-primary">9</div>
+						<div class="border border-dark col-md-1 bg-primary">10</div>
+						<div class="border border-dark col-md-1 bg-primary">11</div>
+						<div class="border border-dark col-md-1 bg-primary">12</div>
+					</div>
+					<div class="row">
+						<div class="border border-dark col-md-6 bg-secondary">
+							Col inside Col
+						</div>
+						<div class="border border-dark col-md-6 bg-secondary">
+							Col inside Col
+							<div class="row">
+								<div class="border border-dark col-md-2 bg-primary">1</div>
+								<div class="border border-dark col-md-2 bg-primary">2</div>
+								<div class="border border-dark col-md-2 bg-primary">3</div>
+								<div class="border border-dark col-md-2 bg-primary">4</div>
+								<div class="border border-dark col-md-2 bg-primary">5</div>
+								<div class="border border-dark col-md-2 bg-primary">6</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Bootstrap JS Dependencies CDN-->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	</body>
+</html>

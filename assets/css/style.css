@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*landing*/
+#landing {
+
+	background:
+	linear-gradient(
+
+		rgba(201, 182, 8, 0.75),
+		rgba(0, 0, 0, 0.75)
+		),
+
+	url(https://images.pexels.com/photos/2884/building-vintage-bike-monument.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)	
+	;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*about*/
+#about {
+	background:
+	linear-gradient(
+
+		rgba(77, 31, 0, 0.75),
+		rgba(0, 0, 0, 0.75)
+		),
+
+	url(https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)	
+	;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*skills*/
+#skills {
+	background:
+	linear-gradient(
+
+		rgba(77, 31, 0, 0.75),
+		rgba(0, 0, 0, 0.75)
+		),
+
+	url(https://images.pexels.com/photos/247938/pexels-photo-247938.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)	
+	;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.card {
+
+	background:
+		rgba(250,250, 250, 0.75)
+	;
+
+}
+
+
+/*gallery*/
+#gallery {
+	background:
+	linear-gradient(
+
+		rgba(77, 31, 0, 0.75),
+		rgba(0, 0, 0, 0.75)
+		),
+
+	url(https://images.pexels.com/photos/1684081/pexels-photo-1684081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)	
+	;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.carousel-caption {
+
+	background:
+
+		rgba(0, 0, 0, 0.75)
+
+
+}
+
+/*contact*/
+#contact {
+	background:
+	linear-gradient(
+
+		rgba(77, 31, 0, 0.75),
+		rgba(0, 0, 0, 0.75)
+		),
+
+	url(https://images.pexels.com/photos/697662/pexels-photo-697662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)	
+	;
+		background-attachment: fixed;
+
+}
+
+#gmap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 10px;
+}
