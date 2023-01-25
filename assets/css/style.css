@@ -2,8 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
+h1,h2,h3,h4,h5 {
+font-family: 'Lora', serif;
+}
 
 /*about*/
 #landing {
@@ -22,7 +26,7 @@
 }
 
 /*skills*/
-#skills {
+#tools {
 	background:
 	linear-gradient(
 
@@ -47,7 +51,7 @@
 
 
 /*gallery*/
-#gallery {
+#projects {
 	background:
 	linear-gradient(
 
