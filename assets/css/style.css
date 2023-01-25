@@ -5,25 +5,8 @@
 }
 
 
-/*landing*/
-#landing {
-
-	background:
-	linear-gradient(
-
-		rgba(201, 182, 8, 0.75),
-		rgba(0, 0, 0, 0.75)
-		),
-
-	url(https://images.pexels.com/photos/2884/building-vintage-bike-monument.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)	
-	;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
 /*about*/
-#about {
+#landing {
 	background:
 	linear-gradient(
 
